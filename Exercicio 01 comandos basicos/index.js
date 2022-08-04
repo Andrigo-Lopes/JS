@@ -1,0 +1,5 @@
+alert("Olá, seja bem vindo. A seguir pediremos alguns dados!")
+const nome = prompt("Informe seu nome: ")
+const age = prompt("Informe sua idade: ")
+let confirmation = confirm("Sua idade é " + age)
+alert("Nome: " + nome + "\n Idade digitada: " + age + "\n Confirmação de idade: " + confirmation )
